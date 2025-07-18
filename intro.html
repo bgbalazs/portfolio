@@ -38,6 +38,26 @@
   </div>
 </div>
 
+<div class="form-container">
+  <input type="text" id="nameText" class="text1" placeholder="Add meg a neved...">
+  <input type="text" id="emailText" class="text2" placeholder="Add meg az e-mail címed..">
+  
+<textarea name="" id="message" class="input-data"></textarea>
+  
+  <button id="send-message" class="send-message">Küldés</button>
+</div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Üzenet Összegzése</h2>
+            <p>Név: <strong id="modalName"></strong></p>
+            <p>E-mail: <strong id="modalEmail"></strong></p>
+            <p>Üzenet: <p><strong id="modalMessage"></strong></p></p>
+           
+        </div>
+    </div>
+
   <footer>
          <div class="footer">
         
@@ -50,6 +70,6 @@
 
     </footer>
 
-
+<script src="index.js"></script>
 </body>
 </html>
